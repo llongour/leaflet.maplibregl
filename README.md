@@ -15,7 +15,7 @@ RStudio 1.2 will work if the rendering engine is set to Desktop OpenGL, which is
 This package is not yet available on CRAN.
 
 ```r
-devtools::install_github("l-longour/leaflet.maplibregl")
+devtools::install_github("llongour/leaflet.maplibregl")
 ```
 
 ## Usage
@@ -27,10 +27,8 @@ library(leaflet)
 library(leaflet.maplibregl)
 
 leaflet() %>%
-  addMaplibreGL(style = "https://maputnik.github.io/osm-liberty/style.json")
+  addMaplibreGL(style = "[https://maputnik.github.io/osm-liberty/style.json](https://demotiles.maplibre.org/style.json)")
 ```
-
-<img src="https://raw.githubusercontent.com/l-longour/leaflet.maplibregl/master/sshot.png" alt="Screenshot of map" width="615" height="421"/>
 
 ## License
 

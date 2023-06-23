@@ -1,0 +1,10 @@
+/* Adjust z-index properties to work with Leaflet 1.0 */
+
+.maplibregl-ctrl-top-left,
+.maplibregl-ctrl-top-right,
+.maplibregl-ctrl-bottom-left,
+.maplibregl-ctrl-bottom-right { z-index: 102; }
+
+.maplibregl-popup-tip {
+    z-index: 101;
+}

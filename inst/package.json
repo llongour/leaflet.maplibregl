@@ -1,5 +1,5 @@
 {
-  "name": "leaflet-mapbox-gl-binding",
+  "name": "leaflet-maplibre-gl-binding",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "mapbox-gl": "^0.53.1",
-    "mapbox-gl-leaflet": "0.0.4"
+    "mapbox-gl": "^1.15.2",
+    "mapbox-gl-leaflet": "0.0.15"
   }
 }

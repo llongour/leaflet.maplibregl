@@ -1,17 +1,17 @@
-Package: leaflet.mapboxgl
+Package: leaflet.maplibregl
 Type: Package
-Title: Mapbox GL JS plugin for Leaflet to support vector tiles
+Title: MapLibre GL JS plugin for Leaflet to support vector tiles
 Version: 0.1.0
 Imports: leaflet, htmltools, utils
 Authors@R: c(
     person("Joe", "Cheng", role = c("aut", "cre"), email = "joe@rstudio.com"),
     person(family = "RStudio", role = "cph"),
-    person(family = "Mapbox", role = "cph", comment = "Mapbox GL JS and Mapbox GL Leaflet")
+    person(family = "MapLibre", role = "cph", comment = "MapLibre GL JS and MapLibre GL Leaflet"),
+    person("Lucas", "Longour", role = c("aut", "ctb"))
     )
-Description: Plugin for using vector tiles with Leaflet, via Mapbox GL JS.
-    Both Mapbox-sourced vector tiles and third-party vector tiles can be used.
+Description: Plugin for using vector tiles with Leaflet, via MapLibre GL JS.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.2.3
